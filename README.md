@@ -5,6 +5,8 @@ Hello!
 
 This project was basically a copy of my Front End project (www.louisvillehiringhall.com - up and live!) redone as as a PHP website.
 
+The PHP version of this website is not up currently.  I did all work on localhost.
+
 In addition to the Include files (a life saver!), I attached a database.
 
 You can find the database interface on the dracgenerator.php page. 

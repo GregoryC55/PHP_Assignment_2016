@@ -1,0 +1,248 @@
+/*=====general======*/
+body {
+  /*width:1070px; - original setting before Media Query*/
+  margin:auto;
+  background-color: #6966cc;
+  color: #33001a;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri;
+}
+.article {
+  padding: 5px;
+  background-color: #99ccff;
+  margin: auto;
+}
+.article p {
+  margin: 0 auto;
+  width: 90%;
+}
+h2, h3, h4 {
+  color: #5DFC0A;
+	border:2px #202020 outset;
+	background-color:#221F99;
+	text-align:center;
+	border-radius:5px;
+  margin-left: 10%;
+  width: 80%;
+}
+/*========Jquery=========*/
+.secret {
+  display: none;
+}
+/*===========Quiz============*/
+.quiz {
+  align: center;
+}
+.quiz p {
+  width: 100%;
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+/*======header======*/
+.main_header {
+  background-color: #99ccff;
+  background-image: url(../images/background6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 315px;
+}
+.main_nav {
+	text-align:center;
+	width:100%;
+	position:relative;
+	top:210px;
+	background-color:#99CCFF;
+  padding-top: 10px;
+}
+.units {
+  text-align:center;
+  position:relative;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.main_title {
+  text-shadow: 0 0 10px white, 0 0 20px #221F99;
+	font-size: 42px;
+	color:#FFFFFF;
+	margin:auto;
+	border:3px outset gray;
+	width:95%;
+	background-color: #101010;
+  border-radius: 10px;
+  padding: 2px;
+}
+/*======navigation======*/
+.main_nav a:link {
+  text-decoration:none;
+	display:inline-block;
+	width:120px;
+	margin-top:2px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-top:-1px;
+	color:##5DFC0A;
+	border:2px #5DFC0A outset;
+	border-radius:5px;
+	background-color:#221F99;
+}
+.main_nav a:hover {
+	color:#5DFC0A;
+	background-color:#593599;
+}
+/*=========generators========*/
+.generator1 {
+  text-align: center;
+  width: 265px;
+  float: left;
+  background-color: #99ccff;
+  padding: -5px;
+}
+.generator2 {
+  text-align: center;
+  width: 265px;
+  float: left;
+  background-color: #99ccff
+}
+.generator3 {
+  text-align: center;
+  width: 265px;
+  float: left;
+  background-color: #99ccff
+}
+.generator4 {
+  text-align: center;
+  width: 265px;
+  float: left;
+  background-color: #99ccff
+}
+.break {
+  clear: left;
+}
+/*=========images========*/
+.image, .image_b {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+/*=======footer=======*/
+footer {
+  text-align:center;
+  color: white;
+  background-color: #221f99;
+  padding: 1px;
+  clear:both;
+}
+/*======Links============*/
+.year a:link {
+  text-decoration: none;
+  text-align: center;
+  width:120px;
+	margin-top:2px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-top:-1px;
+	color:#5DFC0A;
+	border:2px white outset;
+	border-radius:5px;
+	background-color:#221F99;
+  display: block;
+  margin: 0 auto;
+}
+.units a:link {
+  text-decoration: none;
+  text-align: center;
+  width:120px;
+  margin-top:2px;
+  margin-left:5px;
+  margin-right:5px;
+  padding-top:-1px;
+  color:#5DFC0A;
+  border:2px white outset;
+  border-radius:5px;
+  background-color:#221F99;
+  margin: 0 auto;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  background-color: transparent;
+  color: black;
+}
+a:active {
+  color: #00ff00;
+}
+/*========Tables===========*/
+table {
+  margin-left: 10%;
+  border-collapse:collapse;
+  width: 80%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  text-align: center;
+  padding: 5px;
+}
+th {
+  background-color: #007fff;
+  color: white;
+}
+td {
+  background-color: #a9d4ff;
+}
+/*===================Media Query============================*/
+@media (max-width: 428px) {
+  h2, h3 {
+    font-size: 18px;
+  }
+  h2 {
+    margin-top: -35px;
+  }
+  .main_header {
+    background-image: none;
+  }
+  .main_nav {
+    top:2px;
+  }
+  .container {
+    width: 350px;
+  }
+  .logo {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .image_b {
+    height: 46px;
+    width: 200px;
+  }
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (min-width:430px) and (max-width: 1070px) {
+h2 {
+  padding-top: 10px;
+  }
+  .main_header {
+    background-color: #99ccff;
+    background-image: url(../images/background6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 325px;
+  }
+}

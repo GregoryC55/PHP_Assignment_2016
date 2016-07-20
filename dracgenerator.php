@@ -2,8 +2,8 @@
     <div class="article">
       <h2>Random Unit Generator for the Draconis Combine in 3085</h2>
       <h3>Search For Available Units in 3085</h3>
-    <p>Enter the tonnage of the unit you are looking for in the box below.  All tonnages are between 20 and 100 tons in 5 ton increments.
-    (i.e. 20, 25, 30, 35, 40, etc)</p>
+    <p>Enter the tonnage of the unit you are looking for in the box below.  All tonnages are between 5 and 100 tons in 5 ton increments.
+    (i.e. 5, 10, 15, 20, 25, 30, 35, 40, etc)</p>
     <form name="frmSearch" method="post" action="dracgenerator.php">
       <table width="599" border="1">
         <tr>
